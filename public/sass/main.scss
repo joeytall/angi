@@ -1,0 +1,50 @@
+$bg-color: #333333;
+
+body{
+  background-color: $bg-color;
+}
+
+.logo span {
+  margin-left: 10px;
+}
+
+.nav-button {
+  vertical-align: middle;
+}
+
+.navbar {
+  .fa {
+    color: white;
+  }
+}
+
+#jk{
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-dir {
+  position: relative;
+  overflow: hidden;
+  margin-right: 5px;
+}
+
+.btn-dir input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.btn .fa{
+  margin-right: 5px;
+}
